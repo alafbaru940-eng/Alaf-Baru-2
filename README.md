@@ -39,3 +39,38 @@
   </footer>
 </body>
 </html>
+
+/* style.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header, section, footer {
+  padding: 20px;
+  text-align: center;
+}
+header {
+  background: #00695c;
+  color: white;
+}
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+.services li {
+  margin: 10px 0;
+}
+form input, form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+}
+button {
+  padding: 10px 20px;
+  background: #00695c;
+  color: white;
+  border: none;
+}
